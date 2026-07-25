@@ -414,7 +414,7 @@ but not coverage.
 
 `docker-compose.yml` remains the development/demo topology and explicitly uses
 the Dockerfiles' development targets. PostgreSQL 18 stores application data,
-the backend runs `ts-node-dev`, and the frontend exposes Vite.
+the backend runs Nodemon with `ts-node`, and the frontend exposes Vite.
 
 `docker-compose.prod.yml` is the production deployment baseline. Multi-stage
 images compile the backend and frontend, production Node runs emitted backend
