@@ -12,7 +12,7 @@ monitoring, and infrastructure-specific availability controls.
 ## Topology and images
 
 `docker-compose.yml` explicitly selects the `development` Dockerfile stages and
-continues to run `ts-node-dev` and Vite. `docker-compose.prod.yml` selects the
+continues to run Nodemon with `ts-node` and Vite. `docker-compose.prod.yml` selects the
 following production stages:
 
 - The backend build stage emits JavaScript into `dist/` and rewrites TypeScript

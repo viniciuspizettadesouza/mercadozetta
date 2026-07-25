@@ -59,6 +59,7 @@
     "prettier-plugin-tailwindcss": "^0.8.1"
   },
   "overrides": {
+    "brace-expansion": "5.0.8",
     "js-yaml": "4.3.0"
   },
   "lint-staged": {
